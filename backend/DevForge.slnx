@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="DevForge.API/DevForge.API.csproj" />
+  <Project Path="DevForge.Application/DevForge.Application.csproj" />
+  <Project Path="DevForge.Domain/DevForge.Domain.csproj" />
+  <Project Path="DevForge.Infrastructure/DevForge.Infrastructure.csproj" />
+</Solution>
