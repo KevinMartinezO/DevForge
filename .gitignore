@@ -1,0 +1,55 @@
+## ----------------------------------------------------------------------
+## Environment & Security (CRÍTICO - Nunca subir secretos ni credenciales)
+## ----------------------------------------------------------------------
+.env
+*.env.local
+*.env.development
+*.env.production
+
+## ----------------------------------------------------------------------
+## .NET / C# Build Outputs & Cache
+## ----------------------------------------------------------------------
+[Bb]in/
+[Oo]bj/
+out/
+*.user
+*.userosscache
+*.sln.docstates
+
+## ----------------------------------------------------------------------
+## Entity Framework Core Tooling & Logs
+## ----------------------------------------------------------------------
+*.log
+*.sqlite
+*.db
+
+## ----------------------------------------------------------------------
+## IDE / Code Editors (VS Code & Visual Studio)
+## ----------------------------------------------------------------------
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.vs/
+
+## ----------------------------------------------------------------------
+## Operating System System Files
+## ----------------------------------------------------------------------
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## ----------------------------------------------------------------------
+## Docker & Containers
+## ----------------------------------------------------------------------
+.docker/

@@ -16,3 +16,5 @@ C:\Users\theke\DevForge\backend\DevForge.Infrastructure\obj\Debug\net10.0\DevFor
 C:\Users\theke\DevForge\backend\DevForge.Infrastructure\obj\Debug\net10.0\refint\DevForge.Infrastructure.dll
 C:\Users\theke\DevForge\backend\DevForge.Infrastructure\obj\Debug\net10.0\DevForge.Infrastructure.pdb
 C:\Users\theke\DevForge\backend\DevForge.Infrastructure\obj\Debug\net10.0\ref\DevForge.Infrastructure.dll
+C:\Users\theke\DevForge\backend\DevForge.Infrastructure\bin\Debug\net10.0\DevForge.Infrastructure.runtimeconfig.json
+C:\Users\theke\DevForge\backend\DevForge.Infrastructure\obj\Debug\net10.0\DevForge.Infrastructure.genruntimeconfig.cache

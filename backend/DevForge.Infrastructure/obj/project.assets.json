@@ -5,7 +5,7 @@
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Humanizer.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -18,7 +18,7 @@
       "Microsoft.Build.Framework/18.0.2": {
         "type": "package",
         "compile": {
-          "ref/net10.0/Microsoft.Build.Framework.dll": {
+          "ref/net10.0/_._": {
             "related": ".xml"
           }
         },
@@ -41,7 +41,7 @@
           "Microsoft.CodeAnalysis.Analyzers": "3.11.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.CodeAnalysis.dll": {
+          "lib/net9.0/_._": {
             "related": ".pdb;.xml"
           }
         },
@@ -99,7 +99,7 @@
           "Microsoft.CodeAnalysis.Common": "[5.0.0]"
         },
         "compile": {
-          "lib/net9.0/Microsoft.CodeAnalysis.CSharp.dll": {
+          "lib/net9.0/_._": {
             "related": ".pdb;.xml"
           }
         },
@@ -161,7 +161,7 @@
           "System.Composition": "9.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll": {
+          "lib/net9.0/_._": {
             "related": ".pdb;.xml"
           }
         },
@@ -221,7 +221,7 @@
           "System.Composition": "9.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.CodeAnalysis.Workspaces.dll": {
+          "lib/net9.0/_._": {
             "related": ".pdb;.xml"
           }
         },
@@ -289,10 +289,7 @@
           "System.Composition": "9.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll": {},
-          "lib/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll": {
-            "related": ".pdb;.xml"
-          }
+          "lib/net9.0/_._": {}
         },
         "runtime": {
           "lib/net9.0/Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll": {},
@@ -404,7 +401,7 @@
           "Newtonsoft.Json": "13.0.4"
         },
         "compile": {
-          "lib/net10.0/Microsoft.EntityFrameworkCore.Design.dll": {
+          "lib/net10.0/_._": {
             "related": ".xml"
           }
         },
@@ -535,7 +532,7 @@
       "Microsoft.Extensions.DependencyModel/10.0.12": {
         "type": "package",
         "compile": {
-          "lib/net10.0/Microsoft.Extensions.DependencyModel.dll": {
+          "lib/net10.0/_._": {
             "related": ".xml"
           }
         },
@@ -627,7 +624,7 @@
       "Microsoft.VisualStudio.SolutionPersistence/1.0.52": {
         "type": "package",
         "compile": {
-          "lib/net8.0/Microsoft.VisualStudio.SolutionPersistence.dll": {
+          "lib/net8.0/_._": {
             "related": ".xml"
           }
         },
@@ -643,7 +640,7 @@
           "System.CodeDom": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/Mono.TextTemplating.dll": {}
+          "lib/net6.0/_._": {}
         },
         "runtime": {
           "lib/net6.0/Mono.TextTemplating.dll": {}
@@ -655,7 +652,7 @@
       "Newtonsoft.Json/13.0.4": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Newtonsoft.Json.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -665,7 +662,7 @@
           }
         }
       },
-      "Npgsql/10.0.3": {
+      "Npgsql/10.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": "10.0.0"
@@ -681,12 +678,12 @@
           }
         }
       },
-      "Npgsql.EntityFrameworkCore.PostgreSQL/10.0.3": {
+      "Npgsql.EntityFrameworkCore.PostgreSQL/10.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "[10.0.4, 11.0.0)",
-          "Microsoft.EntityFrameworkCore.Relational": "[10.0.4, 11.0.0)",
-          "Npgsql": "10.0.3"
+          "Microsoft.EntityFrameworkCore": "[10.0.0, 11.0.0)",
+          "Microsoft.EntityFrameworkCore.Relational": "[10.0.0, 11.0.0)",
+          "Npgsql": "10.0.0"
         },
         "compile": {
           "lib/net10.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
@@ -702,7 +699,7 @@
       "System.CodeDom/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.CodeDom.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -737,7 +734,7 @@
       "System.Composition.AttributedModel/9.0.0": {
         "type": "package",
         "compile": {
-          "lib/net9.0/System.Composition.AttributedModel.dll": {
+          "lib/net9.0/_._": {
             "related": ".xml"
           }
         },
@@ -756,7 +753,7 @@
           "System.Composition.AttributedModel": "9.0.0"
         },
         "compile": {
-          "lib/net9.0/System.Composition.Convention.dll": {
+          "lib/net9.0/_._": {
             "related": ".xml"
           }
         },
@@ -775,7 +772,7 @@
           "System.Composition.Runtime": "9.0.0"
         },
         "compile": {
-          "lib/net9.0/System.Composition.Hosting.dll": {
+          "lib/net9.0/_._": {
             "related": ".xml"
           }
         },
@@ -791,7 +788,7 @@
       "System.Composition.Runtime/9.0.0": {
         "type": "package",
         "compile": {
-          "lib/net9.0/System.Composition.Runtime.dll": {
+          "lib/net9.0/_._": {
             "related": ".xml"
           }
         },
@@ -812,7 +809,7 @@
           "System.Composition.Runtime": "9.0.0"
         },
         "compile": {
-          "lib/net9.0/System.Composition.TypedParts.dll": {
+          "lib/net9.0/_._": {
             "related": ".xml"
           }
         },
@@ -2447,10 +2444,10 @@
         "packageIcon.png"
       ]
     },
-    "Npgsql/10.0.3": {
-      "sha512": "7nb5YzXuvWWJxB0J8DiyL3we+X4FOctZrt0fIBnucOIaIevFEEwGQVZKtiu9olXdlNAK1eNgqSral6r/jlhI4w==",
+    "Npgsql/10.0.0": {
+      "sha512": "xZAYhPOU2rUIFpV48xsqhCx9vXs6Y+0jX2LCoSEfDFYMw9jtAOUk3iQsCnDLrFIv9NT3JGMihn7nnuZsPKqJmA==",
       "type": "package",
-      "path": "npgsql/10.0.3",
+      "path": "npgsql/10.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2461,22 +2458,22 @@
         "lib/net8.0/Npgsql.xml",
         "lib/net9.0/Npgsql.dll",
         "lib/net9.0/Npgsql.xml",
-        "npgsql.10.0.3.nupkg.sha512",
+        "npgsql.10.0.0.nupkg.sha512",
         "npgsql.nuspec",
         "postgresql.png"
       ]
     },
-    "Npgsql.EntityFrameworkCore.PostgreSQL/10.0.3": {
-      "sha512": "IPGrrZnRkuW7OlHDhUESZz4G5DLkW7Nej/O3Cx+0iTsgyU5XJxBgpsvTHLloo3WWuAKKbDHXBvWPVkX1deRh1Q==",
+    "Npgsql.EntityFrameworkCore.PostgreSQL/10.0.0": {
+      "sha512": "E2+uSWxSB8LdsUVwPaqRWOcGOP92biry2JEwc0KJMdLJF+aZdczeIdEXVwEyv4nSVMQJH0o8tLhyAMiR6VF0lw==",
       "type": "package",
-      "path": "npgsql.entityframeworkcore.postgresql/10.0.3",
+      "path": "npgsql.entityframeworkcore.postgresql/10.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "lib/net10.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll",
         "lib/net10.0/Npgsql.EntityFrameworkCore.PostgreSQL.xml",
-        "npgsql.entityframeworkcore.postgresql.10.0.3.nupkg.sha512",
+        "npgsql.entityframeworkcore.postgresql.10.0.0.nupkg.sha512",
         "npgsql.entityframeworkcore.postgresql.nuspec",
         "postgresql.png"
       ]
@@ -2683,7 +2680,8 @@
       "DevForge.Application >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 10.0.12",
       "Microsoft.EntityFrameworkCore.Design >= 10.0.12",
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= 10.0.3"
+      "Microsoft.EntityFrameworkCore.Relational >= 10.0.12",
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 10.0.0-*"
     ]
   },
   "packageFolders": {
@@ -2746,9 +2744,13 @@
             "target": "Package",
             "version": "[10.0.12, )"
           },
+          "Microsoft.EntityFrameworkCore.Relational": {
+            "target": "Package",
+            "version": "[10.0.12, )"
+          },
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
-            "version": "[10.0.3, )"
+            "version": "[10.0.0-*, )"
           }
         },
         "imports": [
