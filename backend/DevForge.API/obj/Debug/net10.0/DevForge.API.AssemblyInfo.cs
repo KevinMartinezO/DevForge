@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DevForge.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98d6857ff6b852833853c61a4dc63821d971eef4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7557057cac10fe2a47432ee6e004efa02ccc1d7")]
 [assembly: System.Reflection.AssemblyProductAttribute("DevForge.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DevForge.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
