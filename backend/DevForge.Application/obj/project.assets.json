@@ -1,11 +1,30 @@
 {
   "version": 4,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "DevForge.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/DevForge.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevForge.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DevForge.Domain/1.0.0": {
+      "type": "project",
+      "path": "../DevForge.Domain/DevForge.Domain.csproj",
+      "msbuildProject": "../DevForge.Domain/DevForge.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "DevForge.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\theke\\.nuget\\packages\\": {}
@@ -20,16 +39,24 @@
       "outputPath": "C:\\Users\\theke\\DevForge\\backend\\DevForge.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+        "C:\\Users\\theke\\DevForge\\backend\\NuGet.Config",
         "C:\\Users\\theke\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
       "frameworks": {
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\theke\\DevForge\\backend\\DevForge.Domain\\DevForge.Domain.csproj": {
+              "projectPath": "C:\\Users\\theke\\DevForge\\backend\\DevForge.Domain\\DevForge.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

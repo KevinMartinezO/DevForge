@@ -20,11 +20,15 @@
       "outputPath": "C:\\Users\\theke\\DevForge\\backend\\DevForge.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+        "C:\\Users\\theke\\DevForge\\backend\\NuGet.Config",
         "C:\\Users\\theke\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
       "frameworks": {
         "net10.0": {
           "framework": "net10.0",
