@@ -1,6 +1,64 @@
-@DevForge.API_HostAddress = http://localhost:5219
+### Variable Global de la API
+@baseUrl = http://localhost:5219
 
-GET {{DevForge.API_HostAddress}}/weatherforecast/
+###############################################
+# 1. OBTENER TODOS LOS RETOS
+###############################################
+GET {{baseUrl}}/api/retosdev
 Accept: application/json
 
 ###
+
+###############################################
+# 2. PRUEBA DE ERROR (FluentValidation - HTTP 400)
+# Título demasiado corto (< 3 caracteres)
+###############################################
+POST {{baseUrl}}/api/retosdev
+Content-Type: application/json
+
+{
+  "titulo": "A",
+  "descripcion": "Descripción de prueba para verificar fallo de validación"
+}
+
+###
+
+###############################################
+# 3. PRUEBA EXITOSA (Creación - HTTP 201)
+# Datos válidos cumpliendo todas las reglas
+###############################################
+POST {{baseUrl}}/api/retosdev
+Content-Type: application/json
+
+{
+  "titulo": "Blindaje de APIs con FluentValidation",
+  "descripcion": "Configurar reglas perimetrales estrictas en los DTOs de entrada para prevenir ataques de over-posting y entradas maliciosas."
+}
+
+###
+
+###############################################
+# 4. Obtener un reto específico por ID (GET)
+###############################################
+GET {{baseUrl}}/api/retosdev/5
+Accept: application/json
+
+###
+
+###############################################
+# 5. Actualizar un reto existente (PUT - HTTP 204)
+###############################################
+PUT {{baseUrl}}/api/retosdev/3
+Content-Type: application/json
+
+{
+  "titulo": "Arquitectura Limpia en .NET 10 (Actualizado)",
+  "descripcion": "Se completó la implementación del CRUD completo con Vertical Slicing."
+}
+
+###
+
+###############################################
+# 6. Eliminar un reto existente (DELETE - HTTP 204)
+###############################################
+DELETE {{baseUrl}}/api/retosdev/3
